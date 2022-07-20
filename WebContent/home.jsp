@@ -15,8 +15,6 @@ String username=(String)session.getAttribute("username");
 
 
 <div align="center">
-<h1><b>Product Management System</b></h1>
-<h2>Welcome <%=username%></h2>
 </div>
 </body>
 </html>

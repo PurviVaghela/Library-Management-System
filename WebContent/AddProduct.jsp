@@ -4,20 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Add Book</title>
 </head>
 <body>
 <form action="ProductController" method="post">
 		<table border="1px">
 			<tr>
-				<td>Product Name ::</td>
+				<td>Book Name ::</td>
 				<td><input type="text" name="pname" /></td>
 			</tr>
 			<tr>
-				<td>Product Category :</td>
+				<td>Book Category :</td>
 				<td><input type="text" name="category" /> </td>
 				<tr>
-				<td>Product Price :</td>
+				<td>Book Price :</td>
 				<td><input type="text" name="price" /> 
 				</tr>
 				<input type="hidden"

@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Search Book</title>
 </head>
 <body>
 
-<button><a href="home.jsp">Home</a></button><br><br>
+<button><a href="header.jsp">Home</a></button><br><br>
 <form action="ProductController" method=post>
  <input type="search" name="search">
 <input type='hidden' name='flag' value='search'>
@@ -18,10 +18,10 @@
 <table border="1px solid black">
 	<thead>
 	
-		<td>Product ID</td>
-		<td>Product Name</td>
-		<td>Product Category</td>
-		<td>Product Price</td>
+		<td>Book ID</td>
+		<td>Book Name</td>
+		<td>Book Category</td>
+		<td>Book Price</td>
 		<td>Action</td>
 		<td>Action</td>
 		

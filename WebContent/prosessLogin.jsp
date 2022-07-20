@@ -11,15 +11,15 @@
 		String username = request.getParameter("username");
 	
 		String password = request.getParameter("password");
-		String uname1="Nandini";
+		String uname1="Purvi";
 		String pwd1 ="12345678";
-		String uname2 = "Hemansi";
-		String pwd2 = "hemansi123";
+		String uname2 = "Shaily";
+		String pwd2 = "12345678";
 		if((username.equals(uname1) && password.equals(pwd1)) ||(username.equals(uname2) && password.equals(pwd2)))
 		{
 			session.setAttribute("username",username);
-			session.setMaxInactiveInterval(30);
-			response.sendRedirect("home.jsp");
+			session.setMaxInactiveInterval(3000);
+			response.sendRedirect("header.jsp");
 		}
 		else
 		{

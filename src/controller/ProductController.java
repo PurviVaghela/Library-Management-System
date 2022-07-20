@@ -32,8 +32,7 @@ public class ProductController extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+protected void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		PrintWriter out = response.getWriter();
 		try {
@@ -48,7 +47,7 @@ public class ProductController extends HttpServlet {
 					Product p1 = new Product(s1, s2, f1);
 					ProDAO r1 = new ProDAO();
 					r1.insert(p1);
-					response.sendRedirect("home.jsp");
+					response.sendRedirect("header.jsp");
 				}
 			}
 			if (f.equals("showdata")) {

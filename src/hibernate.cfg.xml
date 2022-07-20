@@ -10,11 +10,11 @@
 
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
-		<property name="hibernate.connection.url">jdbc:mysql://localhost/Product_Management</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Product_Management</property>
 
 		<property name="hibernate.connection.username">root</property>
 
-		<property name="hibernate.connection.password">sbv2003@</property>
+		<property name="hibernate.connection.password">manager</property>
 
 		<property name="hibernate.connection.pool_size">10</property>
 
